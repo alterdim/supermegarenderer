@@ -1,4 +1,4 @@
-package com.example;
+package li.gerard.supermegarenderer;
 
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.fml.common.Mod;

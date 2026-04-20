@@ -1,4 +1,4 @@
-package com.example;
+package li.gerard.supermegarenderer;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
@@ -81,8 +81,8 @@ public class ItemExporter {
 
         GlStateManager.enableBlend();
         GL14.glBlendFuncSeparate(
-            GL11.GL_SRC_ALPHA, GL11.GL_ONE_MINUS_SRC_ALPHA, // RGB
-            GL11.GL_ONE,       GL11.GL_ONE_MINUS_SRC_ALPHA  // alpha
+            GL11.GL_SRC_ALPHA, GL11.GL_ONE_MINUS_SRC_ALPHA,
+            GL11.GL_ONE,       GL11.GL_ONE_MINUS_SRC_ALPHA
         );
         GlStateManager.matrixMode(GL11.GL_PROJECTION);
         GlStateManager.pushMatrix();
@@ -91,7 +91,7 @@ public class ItemExporter {
         GlStateManager.matrixMode(GL11.GL_MODELVIEW);
         GlStateManager.pushMatrix();
         GlStateManager.loadIdentity();
-        GlStateManager.translate(0f, 0f, -2000f); // matches standard MC GUI depth
+        GlStateManager.translate(0f, 0f, -2000f); // not a fan of this depth yet tbh
         RenderHelper.enableGUIStandardItemLighting();
         renderItem.renderItemAndEffectIntoGUI(stack, 0, 0);
         RenderHelper.disableStandardItemLighting();

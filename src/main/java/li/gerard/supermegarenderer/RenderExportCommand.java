@@ -1,4 +1,4 @@
-package com.example;
+package li.gerard.supermegarenderer;
 
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
