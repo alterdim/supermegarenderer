@@ -1,13 +1,13 @@
 [
 	{
-		"modid": "samplemod112",
-		"name": "Sample Mod 1.12",
-		"description": "Sample mod for 1.12.2, using ForgeGradle 5.1.",
+		"modid": "supermegarenderer",
+		"name": "Super Mega Renderer",
+		"description": "Renders all registered blocks and items as they appear in the inventory and exports them as high-resolution PNG files. Use /renderexport [size] in-game.",
 		"version": "${version}",
 		"mcversion": "1.12.2",
 		"url": "",
 		"updateUrl": "",
-		"authorList": ["You!"],
+		"authorList": [],
 		"credits": "",
 		"logoFile": "",
 		"screenshots": [],
